@@ -24,7 +24,7 @@ class Carro:
         print(f"Fecha: {self.fecha_de_ingreso.strftime('%d-%B-%Y')}")
         print()
 
-#Ejemplos dados
+print("Ejemplos dados")
 Primer_Carro = Carro("Toyota", "Yaris", 5, "Gris metalico", "Sedan", "Gasolina", 24000, 10, datetime(2022, 8, 9))
 Segundo_Carro = Carro("Nissan", "Frontier", 5, "Rojo", "Pickup", "Gasolina", 44900, 3, datetime(2022, 8, 23))
 
@@ -32,9 +32,11 @@ Segundo_Carro = Carro("Nissan", "Frontier", 5, "Rojo", "Pickup", "Gasolina", 449
 Primer_Carro.informacion_carro()
 Segundo_Carro.informacion_carro()
 
-#Mis ejemplos
+print("Mis ejemplos")
 Tercer_Carro = Carro("Kia", "Ceed", 5, "Negro", "Sedan", "Gasolina", 54200, 5, datetime(2022, 8, 14))
-Cuarto_Carro = Carro("Mitsubishi", "Colt pequeño",5, "Rojo", "Pickup", "Diesel", 64000, 6, datetime(2023, 4, 6))
+Cuarto_Carro = Carro("Toyota", "Tacoma",4, "Cafe plateado", "Sedan", "Hibrido", 56000, 1, datetime(2023, 4, 8))
+Quinto_Carro = Carro("Nissan", "Pathfinder",5, "Blanco", "Sedan", "Diesel", 21000, 7, datetime(2022, 7, 6))
+Sexto_Carro = Carro("Mitsubishi", "Colt pequeño",5, "Rojo", "Pickup", "Diesel", 64000, 6, datetime(2023, 4, 6))
 
 Tercer_Carro.informacion_carro()
 Cuarto_Carro.informacion_carro()
